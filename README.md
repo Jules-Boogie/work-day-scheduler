@@ -55,7 +55,7 @@ https://medium.com/@monica1109/scheduling-settimeout-and-setinterval-ca2ee50cd99
 
 **Page Snippet**
 
-https://github.com/Jules-Boogie/work-day-scheduler/blob/master/Assets/Capture.PNG
+![alt text](https://github.com/Jules-Boogie/work-day-scheduler/blob/master/Assets/Capture.PNG)
 
 
 
