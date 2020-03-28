@@ -22,8 +22,8 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="style.css" />
+   
+    <link rel="stylesheet" href="Assets/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -34,100 +34,100 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <div class="row h-100" id="9">
+      <div class="row h-100" data-id="9am">
         <p class="col hour description time-block">
           9:00am
         </p>
-        <textarea id="info" class="col-9 form-control textarea">
-          column 2 - biggest column
+        <textarea id="9am" class="col-9 form-control textarea" time="9">
+          
         </textarea>
         <button class="col saveBtn"><span class="glyphicon glyphicon-floppy-disk"></span>
         
         </button>
       </div>
-      <div class="row h-100" id="10">
+      <div class="row h-100" data-id="10am">
         <p class="col hour description time-block">
           10:00am
         </p>
-        <textarea id="info" class="col-9 form-control textarea">
-          column 2 - biggest column
+        <textarea id="10am" class="col-9 form-control textarea" time="10">
+          
         </textarea>
         <button class="col saveBtn"><span class="glyphicon glyphicon-floppy-disk"></span>
          
         </button>
       </div>
-      <div class="row h-100" id="11">
+      <div class="row h-100" data-id="11am">
         <p class="col hour description time-block">
           11:00am
         </p>
-        <textarea id="info" class="col-9 form-control textarea">
-          column 2 - biggest column
+        <textarea id="11am" class="col-9 form-control textarea" time="11">
+          
         </textarea>
         <button class="col saveBtn"><span class="glyphicon glyphicon-floppy-disk"></span>
          
         </button>
       </div>
-      <div class="row h-100" id="12">
+      <div class="row h-100" data-id="12noon">
         <p class="col hour description time-block">
           12:00noon
         </p>
-        <textarea id="info" class="col-9 form-control textarea">
-          column 2 - biggest column
+        <textarea id="12noon" class="col-9 form-control textarea" time="12">
+          
         </textarea>
         <button class="col saveBtn"><span class="glyphicon glyphicon-floppy-disk"></span>
        
         </button>
       </div>
-      <div class="row h-100" id="1">
+      <div class="row h-100" data-id="1pm">
         <p class="col hour description time-block">
           1:00pm
         </p>
-        <textarea id="info" class="col-9 form-control textarea">
-          column 2 - biggest column
+        <textarea id="1pm" class="col-9 form-control textarea" time="1">
+          
         </textarea>
         <button class="col saveBtn"><span class="glyphicon glyphicon-floppy-disk"></span>
          
         </button>
       </div>
-      <div class="row h-100" id="2">
+      <div class="row h-100" data-id="2pm">
         <p class="col hour description time-block">
           2:00pm
         </p>
-        <textarea id="info" class="col-9 form-control textarea">
-          column 2 - biggest column
+        <textarea id="2pm" class="col-9 form-control textarea" time="2">
+          
         </textarea>
         <button class="col saveBtn"><span class="glyphicon glyphicon-floppy-disk"></span>
           
         </button>
       </div>
-      <div class="row h-100" id="3">
+      <div class="row h-100" data-id="3pm">
         <p class="col hour description time-block">
           3:00pm
         </p>
-        <textarea id="info" class="col-9 form-control textarea">
-          column 2 - biggest column
+        <textarea id="3pm" class="col-9 form-control textarea" time="3">
+          
         </textarea>
         <button class="col saveBtn"><span class="glyphicon glyphicon-floppy-disk"></span>
          
         </button>
       </div>
-      <div class="row h-100" id="4">
+      <div class="row h-100" data-id="4pm">
         <p class="col hour description time-block">
           4:00pm
         </p>
-        <textarea id="info" class="col-9 form-control textarea">
-          column 2 - biggest column
+        <textarea id="4pm" class="col-9 form-control textarea" time="4">
+          
         </textarea>
         <button class="col saveBtn"><span class="glyphicon glyphicon-floppy-disk"></span>
          
         </button>
       </div>
-      <div class="row h-100" id="5">
+      <div class="row h-100" data-id="5pm">
         <p class="col hour description time-block">
           5:00pm
         </p>
-        <textarea id="info" class="col-9 form-control textarea">
-          column 2 - biggest column
+        <textarea id="5pm" class="col-9 form-control textarea" time="5">
+          
         </textarea>
         <button class="col saveBtn"><span class="glyphicon glyphicon-floppy-disk"></span>
           
@@ -135,8 +135,15 @@
       </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    
+  
+    
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <script src="Assets/script.js"></script>
   </body>
 </html>
